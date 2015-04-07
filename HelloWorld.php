@@ -25,7 +25,7 @@ class HelloWorld
      */
     public function setPopulation($value)
     {
-        $this->population = $value;
+        $this->population = (int) $value;
     }
 
 
